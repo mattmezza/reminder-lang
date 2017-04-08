@@ -1,4 +1,4 @@
-package me.matteomerola.remindev.ai.exceptions;
+package me.matteomerola.reminderlang.exceptions;
 
 public class EmptyStackException extends Exception {
 

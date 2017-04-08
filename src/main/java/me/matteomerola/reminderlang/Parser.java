@@ -1,15 +1,15 @@
-package me.matteomerola.remindev.ai;
+package me.matteomerola.reminderlang;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 
-import me.matteomerola.remindev.ai.Lexer.Token;
-import me.matteomerola.remindev.ai.Lexer.TokenType;
-import me.matteomerola.remindev.ai.model.Reminder;
-import me.matteomerola.remindev.ai.model.Repeat;
-import me.matteomerola.remindev.ai.exceptions.*;
+import me.matteomerola.reminderlang.Lexer.Token;
+import me.matteomerola.reminderlang.Lexer.TokenType;
+import me.matteomerola.reminderlang.model.Reminder;
+import me.matteomerola.reminderlang.model.Repeat;
+import me.matteomerola.reminderlang.exceptions.*;
 
 public class Parser {
 

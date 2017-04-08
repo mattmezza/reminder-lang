@@ -1,6 +1,6 @@
-package me.matteomerola.remindev.ai.exceptions;
+package me.matteomerola.reminderlang.exceptions;
 
-import me.matteomerola.remindev.ai.Lexer.Token;
+import me.matteomerola.reminderlang.Lexer.Token;
 
 public class ParseException extends Exception {
   static final long serialVersionUID = 99999999;

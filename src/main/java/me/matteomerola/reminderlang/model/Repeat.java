@@ -1,4 +1,4 @@
-package me.matteomerola.remindev.ai.model;
+package me.matteomerola.reminderlang.model;
 
 import java.util.Date;
 

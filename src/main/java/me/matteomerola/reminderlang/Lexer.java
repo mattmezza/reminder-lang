@@ -1,4 +1,4 @@
-package me.matteomerola.remindev.ai;
+package me.matteomerola.reminderlang;
 
 import java.util.ArrayList;
 import java.util.List;

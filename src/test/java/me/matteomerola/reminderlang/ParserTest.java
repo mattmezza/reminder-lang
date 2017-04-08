@@ -1,4 +1,4 @@
-package me.matteomerola.remindev.ai;
+package me.matteomerola.reminderlang;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -9,10 +9,10 @@ import java.util.List;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
-import me.matteomerola.remindev.ai.Lexer.Token;
-import me.matteomerola.remindev.ai.exceptions.ParseException;
-import me.matteomerola.remindev.ai.model.Reminder;
-import me.matteomerola.remindev.ai.model.Repeat;
+import me.matteomerola.reminderlang.Lexer.Token;
+import me.matteomerola.reminderlang.exceptions.ParseException;
+import me.matteomerola.reminderlang.model.Reminder;
+import me.matteomerola.reminderlang.model.Repeat;
 
 /**
  * Unit test for simple App.
