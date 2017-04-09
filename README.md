@@ -2,3 +2,18 @@ The Reminder Lang
 ======
 
 This is a language for reminders.
+
+#### Usage
+
+`compile 'me.matteomerola.reminderlang:reminderlang:0.1.0'`
+
+```java
+List<Lexer.Token> tokens = ;
+try {
+  String text = "\"Buy milk\" tomorrow at 17";
+  Parser parser = new Parser(text, Lexer.lex(text));
+  Reminder r = parser.parse();
+} catch (ParseException e) {
+  // ...
+}
+```
