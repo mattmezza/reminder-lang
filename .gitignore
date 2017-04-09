@@ -332,3 +332,8 @@ gradle-app.setting
 # gradle/wrapper/gradle-wrapper.properties
 
 # End of https://www.gitignore.io/api/macos,windows,java,maven,gradle,android,linux,androidstudio,node,npm
+
+library/build
+library/maven-push.gradle
+
+sample/build
