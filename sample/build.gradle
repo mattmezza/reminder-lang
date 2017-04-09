@@ -1,6 +1,11 @@
 apply plugin: 'application'
 mainClassName = "me.matteomerola.reminderlang.App"
 
+task run.doFirst {
+    standardInput = System.in
+}
+
+
 dependencies {
     compile project(':library')
 }
