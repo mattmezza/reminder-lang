@@ -17,3 +17,17 @@ try {
   // ...
 }
 ```
+
+#### Sample
+
+Run the sample in this way
+
+- `git clone https://github.com/mattmezza/reminder-lang.git .`
+- `./gradlew --console plain :sample:run`
+- launches the interpreter: write your reminder
+- the interpreter will print out the parsed reminder
+
+
+
+
+###### © Matteo Merola
