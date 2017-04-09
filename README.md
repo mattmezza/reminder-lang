@@ -5,7 +5,7 @@ This is a language for reminders.
 
 #### Usage
 
-`compile 'me.matteomerola.reminderlang:reminderlang:0.1.0'`
+`compile 'me.matteomerola.reminderlang:reminderlang:0.1.0'` with `jcenter()` in the repositories.
 
 ```java
 List<Lexer.Token> tokens = ;
